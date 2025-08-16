@@ -72,6 +72,14 @@ h1 {
   box-shadow: 0 0 10px #a62639;
 }
 
+.featured-image {
+  width: 80vw; /* 80% of the viewport width */
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /* === Footer === */
 footer {
   margin-top: 2rem;
