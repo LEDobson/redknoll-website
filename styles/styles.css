@@ -73,10 +73,10 @@ h1 {
 }
 
 .featured-image {
-  width: 80vw; /* 80% of the viewport width */
-  max-width: 800px;
-  max-height: 1200px;
-  height: auto;
+/*  width: 80vw; /* 80% of the viewport width */
+/*  max-width: 800px; */ 
+/*  max-height: 1200px; */
+/*  height: auto; */
   display: block;
   margin: 0 auto;
 }
