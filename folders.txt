@@ -1,0 +1,18 @@
+root/
+├── assets/
+│   ├── workshop/
+│   │   ├── img1.png
+│   │   ├── img2.png
+│   ├── engraving/
+│   │   ├── gift1.png
+│   │   ├── gift2.png
+│   ├── json/
+│   │   ├── workshop.json
+│   │   ├── engraving.json
+├── projects/
+│   ├── workshop/
+│   │   └── index.html
+│   ├── engraving/
+│   │   └── index.html
+├── styles/
+├── index.html

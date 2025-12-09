@@ -1,0 +1,8 @@
+{
+  "title": "Workshop Gallery",
+  "description": "Photos documenting Red Knoll's Amanda project (CNC Router).",
+  "images": [
+    { "src": "assets/amanda/img1.png", "alt": "Workbench setup" },
+    { "src": "assets/amanda/img2.png", "alt": "Laser engraver in action" }
+  ]
+}
