@@ -1,0 +1,8 @@
+{
+  "title": "{ProjectName Here} Gallery",
+  "description": "Photos documenting Red Knoll {ProjectName Here} builds and rituals.",
+  "images": [
+    { "src": "assets/{ProjectName Here}/img1.png", "alt": "{ProjectName Here} #1" },
+    { "src": "assets/{ProjectName Here}/img2.png", "alt": "{ProjectName Here} #2" }
+  ]
+}

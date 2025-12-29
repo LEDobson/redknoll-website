@@ -2,7 +2,13 @@
   "title": "Workshop Gallery",
   "description": "Photos documenting Red Knoll workshop builds and rituals.",
   "images": [
-    { "src": "assets/shop/img1.png", "alt": "Workbench setup" },
-    { "src": "assets/shop/img2.png", "alt": "Laser engraver in action" }
+    {
+      "src": "../../assets/lasers/longer/IMG_0009.jpg",
+      "alt": "Workbench setup"
+    },
+    {
+      "src": "../../assets/lasers/shop/IMG_0028.jpg",
+      "alt": "Making my own connectors"
+    }
   ]
 }

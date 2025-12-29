@@ -1,8 +1,0 @@
-{
-  "title": "Workshop Gallery",
-  "description": "Photos documenting Red Knoll workshop builds and rituals.",
-  "images": [
-    { "src": "assets/workshop/img1.png", "alt": "Workbench setup" },
-    { "src": "assets/workshop/img2.png", "alt": "Laser engraver in action" }
-  ]
-}

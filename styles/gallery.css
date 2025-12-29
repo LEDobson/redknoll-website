@@ -1,0 +1,55 @@
+/* Amanda's Gallery Styles */
+
+/* Reset basics */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Page title */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2em;
+  color: #444;
+}
+
+/* Main 3D model viewer */
+model-viewer {
+  display: block;
+  margin: 0 auto 30px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+/* Gallery container */
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Gallery items (images, thumbnails, etc.) */
+#gallery .item {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+#gallery .item:hover {
+  transform: scale(1.03);
+}
+
+/* Gallery images */
+#gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

@@ -2,7 +2,8 @@
   "title": "Workshop Gallery",
   "description": "Photos documenting Red Knoll's Amanda project (CNC Router).",
   "images": [
-    { "src": "assets/amanda/img1.png", "alt": "Workbench setup" },
-    { "src": "assets/amanda/img2.png", "alt": "Laser engraver in action" }
+    { "src": "../../assets/amanda/AmandaOnLegs.jpg", "alt": "Amanda on legs." },
+    { "src": "../../assets/amanda/SmokeyCabinet.jpg", "alt": "Amanda needs a place for the electronics to go. Meet Smokey." },
+    { "src": "../../assets/amanda/Drawers.svg", "alt": "Smokey has drawers (from Vevor - for built-in BBQ.)" }
   ]
 }
