@@ -1,0 +1,26 @@
+{
+  "title": "Workshop Gallery",
+  "description": "Photos documenting Red Knoll workshop builds and rituals.",
+  "images": [
+    {
+      "src": "../../assets/images/workshop/thumbs/DSC_0100.jpg",
+      "full": "../../assets/images/workshop/DSC_0100.png",
+      "alt": "What is on the lid?"
+    },
+    {
+      "src": "../../assets/images/workshop/thumbs/DSC_0101.jpg",
+      "full": "../../assets/images/workshop/DSC_0100.png",
+      "alt": "What is on the backplane?"
+    },
+    {
+      "src": "../../assets/images/workshop/thumbs/DSC_0102.jpg",
+      "full": "../../assets/images/workshop/DSC_0102.png",
+      "alt": "What is on the lid?"
+    },
+    {
+      "src": "../../assets/images/workshop/thumbs/Terminals.jpg",
+      "full": "../../assets/images/workshop/Terminals.png",
+      "alt": "Making my own connectors"
+    }
+  ]
+}

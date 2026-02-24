@@ -1,37 +1,21 @@
-/*
-async function loadGallery(jsonPath, containerId) {
-  const response = await fetch(jsonPath);
-  console.log("Fetch status:", response.status); // 👀 check if 200
-  const data = await response.json();
-  console.log("Loaded data:", data); // 👀 see structure
-  const gallery = document.getElementById(containerId);
-  gallery.innerHTML = "";
-
-  if (data.images) {
-    data.images.forEach(img => {
-      const el = document.createElement('img');
-      el.src = img.src;
-      el.alt = img.alt;
-      el.className = "gallery-item";
-      gallery.appendChild(el);
-    });
-  } else {
-    gallery.innerHTML = "<p>No images found in JSON</p>";
-  }
-}
-*/
-
 async function loadGallery(jsonPath, containerId) {
   const response = await fetch(jsonPath);
   const data = await response.json();
   const gallery = document.getElementById(containerId);
   gallery.innerHTML = "";
 
-  data.images.forEach(img => {
-    const el = document.createElement('img');
-    el.src = img.src;
+  data.images.forEach((img) => {
+    const link = document.createElement("a");
+    link.href = img.full; // e.g., the PNG
+    link.target = "_blank"; // optional: open in new tab
+
+    const el = document.createElement("img");
+    el.src = img.src; // the JPEG thumbnail
     el.alt = img.alt;
+    el.width = 200;
     el.className = "gallery-item";
-    gallery.appendChild(el);
+
+    link.appendChild(el);
+    gallery.appendChild(link);
   });
 }

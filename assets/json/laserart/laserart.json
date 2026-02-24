@@ -1,0 +1,26 @@
+{
+  "title": "Laser Art Gallery",
+  "description": "Photos documenting Red Knoll's Laser Art projects.",
+  "images": [
+    {
+      "src": "../../assets/images/laserart/thumbs/Woodsman.jpg",
+      "full": "../../assets/images/laserart/Woodsman.png",
+      "alt": "A Christmas gift to my hunter friend  Howdy."
+    },
+    {
+      "src": "../../assets/images/laserart/thumbs/OldTortoiseInSun.jpg",
+      "full": "../../assets/images/laserart/OldTortoiseInSun.png",
+      "alt": "A Christmas gift to my friend Rose"
+    },
+    {
+      "src": "../../assets/images/laserart/thumbs/TortoiseComingOut.jpg",
+      "full": "../../assets/images/laserart/TortoiseComingOut.png",
+      "alt": "A Christmas gift to my friend Rose"
+    },
+    {
+      "src": "../../assets/images/laserart/thumbs/BucksNorth.jpg",
+      "full": "../../assets/images/laserart/BucksNorth.png",
+      "alt": "When Howdy's brother saw his..."
+    }
+  ]
+}

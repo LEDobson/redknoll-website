@@ -1,0 +1,1 @@
+This folder is for the images that are specific to the Amanda project.

@@ -1,13 +1,16 @@
 /* === Base Layout, Typography & Background === */
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
-  background-image: url('../assets/graph.png');
+  background-image: url("../assets/images/graph.png");
   background-repeat: repeat;
   background-size: auto;
   color: #333;
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* === Header === */
@@ -16,7 +19,7 @@ header {
   color: white;
   padding: 1rem 2rem;
   width: 100%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -36,13 +39,22 @@ h1 {
   transform: scale(1.05);
 }
 
-/* === Flex Container for Main Content === */
+.landing .content-wrapper {
+  margin-top: 4vh; /* or whatever spacing you like */
+}
+
 .content-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: calc(100vh - 160px); /* adjust based on header/footer */
+
+  /* Remove vertical centering */
+  justify-content: flex-start;
+
+  /* Add controlled spacing below the header */
+  /*margin-top: 4vh; /* adjust between 8–20vh to taste */
+  flex: 1;
+
   padding: 2rem;
 }
 
@@ -73,17 +85,25 @@ h1 {
 }
 
 .featured-image {
-/*  width: 80vw; /* 80% of the viewport width */
-/*  max-width: 800px; */ 
-/*  max-height: 1200px; */
-/*  height: auto; */
+  /*  width: 80vw; /* 80% of the viewport width */
+  /*  max-width: 800px; */
+  /*  max-height: 1200px; */
+  /*  height: auto; */
   display: block;
   margin: 0 auto;
+}
+
+footer .vob-badge {
+  width: 120px; /* or 100px, 80px — whatever feels right */
+  height: auto;
+  margin-top: 0.5rem;
+  opacity: 0.9; /* optional, softens it a bit */
 }
 
 /* === Footer === */
 footer {
   margin-top: 2rem;
+  padding: 1.5rem;
   font-size: 0.9rem;
   color: #777;
 }

@@ -1,1 +1,0 @@
-This folder contains assets needed for the shop projects.

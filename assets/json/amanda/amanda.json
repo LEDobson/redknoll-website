@@ -1,9 +1,21 @@
 {
-  "title": "Workshop Gallery",
+  "title": "Amanda's Gallery",
   "description": "Photos documenting Red Knoll's Amanda project (CNC Router).",
   "images": [
-    { "src": "../../assets/amanda/AmandaOnLegs.jpg", "alt": "Amanda on legs." },
-    { "src": "../../assets/amanda/SmokeyCabinet.jpg", "alt": "Amanda needs a place for the electronics to go. Meet Smokey." },
-    { "src": "../../assets/amanda/Drawers.svg", "alt": "Smokey has drawers (from Vevor - for built-in BBQ.)" }
+    {
+      "src": "../../assets/images/amanda/thumbs/AmandaOnLegs.jpg",
+      "full": "../../assets/images/amanda/AmandaOnLegs.png",
+      "alt": "Amanda on legs."
+    },
+    {
+      "src": "../../assets/images/amanda/thumbs/SmokeyCabinet.jpg",
+      "full": "../../assets/images/amanda/SmokeyCabinet.png",
+      "alt": "Amanda needs a place for the electronics to go. Meet Smokey."
+    },
+    {
+      "src": "../../assets/images/amanda/Drawers.svg",
+      "full": "../../assets/images/amanda/Drawers.svg",
+      "alt": "Smokey has drawers (from Vevor - for built-in BBQ.)"
+    }
   ]
 }
