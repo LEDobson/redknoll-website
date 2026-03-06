@@ -1,59 +1,81 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Workshop Gallery</title>
-    <link rel="stylesheet" href="../styles/gallery.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>Workshop</title>
   </head>
+
   <body>
-    <h1>The Workshop Gallery</h1>
+    <!-- Red banner header with centered logo -->
+    <header class="site-header">
+      <img src="../assets/images/red_knoll_logo_lg.png"
+           alt="Red Knoll Logo"
+           class="site-logo">
+    </header>
 
-    <p>
-      As this workshop has grown, I’ve relied on Copilot as a thinking partner
-      and a second set of hands. Somewhere along the way, I got tired of
-      referring to tools, systems, and subsystems by long descriptions — so I
-      started giving them names.
-    </p>
+    <div class="content-wrapper">
+      <main>
+        <h1>The Workshop</h1>
 
-    <p>
-      I don’t name every tool in the shop. The drill press is just the drill
-      press. But when there are two lasers, two CNC routers, or a system with
-      multiple subsystems, names help keep the roles straight. They turn a pile
-      of hardware into a constellation of collaborators I can think about
-      clearly.
-    </p>
+        <p>
+          As this workshop has grown, I’ve relied on Copilot as a thinking partner
+          and a second set of hands. Somewhere along the way, I got tired of
+          referring to tools, systems, and subsystems by long descriptions — so I
+          started giving them names.
+        </p>
 
-    <p>
-      That’s how Amanda, Rae, Smokie, Brains, and Power came to be. Their names
-      aren’t for whimsy—they’re for clarity. Each one marks a specific function
-      in the workshop’s ecosystem.
-    </p>
+        <p>
+          I don’t name every tool in the shop. The drill press is just the drill 
+          press. But when there are two lasers, two CNC routers, or a system with 
+          multiple subsystems, names help keep the roles straight. They turn a pile 
+          of hardware into a constellation of collaborators I can think about clearly.
+        </p>
 
-    <p>
-      Naming only happens when it reduces ambiguity or defines a role. It’s how
-      I keep a growing workshop organized, maintainable, and expandable without
-      losing the plot.
-    </p>
+        <p>
+          That’s how Amanda, Rae, Smokie, Brains, and Power came to be. Their names
+          aren’t for whimsy—they’re for clarity. Each one marks a specific function
+          in the workshop’s ecosystem.
+        </p>
 
-    <img
-      src="../assets/images/workshop/Terminals.png"
-      alt="Shop Project"
-      class="featured-image"
-      width="200"
-    />
-    
-    <img
-      src="../assets/images/amanda/CNC.png"
-      alt="Amanda Project"
-      class="featured-image"
-      width="200"
-    />
-    <h2><a href="./amanda/amanda.html">Amanda</a></h2>
+        <p>
+          Naming only happens when it reduces ambiguity or defines a role. It’s how
+          I keep a growing workshop organized, maintainable, and expandable without
+          losing the plot.
+        </p>
 
-    <div id="gallery"></div>
-    <script src="../assets/js/gallery.js"></script>
-    <script>
-      loadGallery("../assets/json/workshop.json", "workshop");
-    </script>
+        <!-- Curated workshop grid -->
+        <div class="workshop-grid">
+          <div class="workshop-item">
+            <img src="../assets/images/cabling/Terminals.png" alt="Cabling" />
+            <h2><a href="cabling/cabling.html">Cabling</a></h2>
+          </div>
+
+          <div class="workshop-item">
+            <img src="../assets/images/amanda/CNC.png" alt="Amanda" />
+            <h2><a href="amanda/amanda.html">Amanda</a></h2>
+          </div>
+
+          <div class="workshop-item">
+            <img src="../assets/images/programmer/thumbs/GraceLid.jpg" alt="Programmer" />
+            <h2><a href="programmer/programmer.html">Programmer</a></h2>
+          </div>
+
+          <div class="workshop-item">
+            <img src="../assets/images/lungs/thumbs/OpenEnclosure.jpg" alt="Lungs" />
+            <h2><a href="lungs/lungs.html">Lungs</a></h2>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <img src="../assets/images/VOB-Color-WB.jpg"
+           alt="Veteran Owned Business"
+           class="vob-badge" />
+      <br />
+      &copy; 2025 Red Knoll • Chandler, AZ
+    </footer>
   </body>
 </html>

@@ -1,19 +1,65 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Amanda's Gallery</title>
-    <link rel="stylesheet" href="../../styles/gallery.css" />
+    <title>Amanda</title>
+
+    <!-- Global layout -->
+    <link rel="stylesheet" href="../../styles/styles.css">
   </head>
+
   <body>
-    <h1>Amanda's Gallery</h1>
+    <!-- Red banner header with centered logo -->
+    <header class="site-header">
+      <img src="../../assets/images/red_knoll_logo_lg.png"
+           alt="Red Knoll Logo"
+           class="site-logo">
+    </header>
 
-    <div id="gallery"></div>
+    <div class="content-wrapper">
+      <main>
+        <h1>Amanda</h1>
 
-    <script src="../../assets/js/gallery.js"></script>
+        <div class="workshop-grid">
 
-    <script>
-      loadGallery("../../assets/json/amanda/amanda.json", "gallery");
-    </script>
+          <!-- Tile 1 -->
+          <div class="workshop-item">
+            <img src="../../assets/images/amanda/RouterSled.png"
+                 alt="Amanda started out as a fully-manual router sled.">
+            <p>Caption for image 1</p>
+          </div>
+
+          <!-- Tile 2 -->
+          <div class="workshop-item">
+            <img src="../../assets/images/amanda/IMG_0027.png"
+                 alt="Amanda has lots of wires and connectors.">
+            <p>Caption for image 2</p>
+          </div>
+
+          <!-- Tile 3 -->
+          <div class="workshop-item">
+            <img src="../../assets/images/amanda/IMG_0027.png"
+                 alt="Amanda project image 3">
+            <p>Caption for image 3</p>
+          </div>
+
+          <!-- Tile 4 -->
+          <div class="workshop-item">
+            <img src="../../assets/images/amanda/IMG_0027.png"
+                 alt="Amanda project image 4">
+            <p>Caption for image 4</p>
+          </div>
+
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <img src="../../assets/images/VOB-Color-WB.jpg"
+           alt="Veteran Owned Business"
+           class="vob-badge">
+      <br>
+      &copy; 2025 Red Knoll • Chandler, AZ
+    </footer>
   </body>
 </html>

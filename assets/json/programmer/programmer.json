@@ -1,0 +1,21 @@
+{
+  "title": "Programmer's Gallery",
+  "description": "Photos documenting Red Knoll's Programmer project (custom-built bench tool).",
+  "images": [
+    {
+      "src": "../../assets/images/programmer/thumbs/GraceLid.jpg",
+      "full": "../../assets/images/programmer/GraceLid.png",
+      "alt": "Here is where components are connected and programmed."
+    },
+    {
+      "src": "../../assets/images/programmer/thumbs/GraceGuts.jpg",
+      "full": "../../assets/images/programmer/GraceGuts.png",
+      "alt": "Here is where we convert the 110V AC to 3.3, 5 and 12 V DC."
+    },
+    {
+      "src": "../../assets/images/programmer/thumbs/GraceUnderside.jpg",
+      "full": "../../assets/images/programmer/GraceUnderside.png",
+      "alt": "The connection between the guts and the lid."
+    }
+  ]
+}

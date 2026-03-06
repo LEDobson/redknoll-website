@@ -1,0 +1,11 @@
+{
+  "title": "Cabling Gallery",
+  "description": "Photos documenting Red Knoll's Cabling sytems.",
+  "images": [
+    {
+      "src": "assets/images/coming_soon.png",
+      "full": "../../assets/images/coming_soon.png",
+      "alt": "I need to finish this."
+    }
+  ]
+}
